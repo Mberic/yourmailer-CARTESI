@@ -1,5 +1,10 @@
 # YourMailer
-Blockchain Based Email Service - using Cartesi Rollups
+A Blockchain Based Email Service using Cartesi Rollups. This project aims to build a decentralized client and server infrastructure for sending and receiving emails. The DApp created uses the currently existing email protocols (IMAP, POP3 and SMTP). 
+
+YourMailer aims to ensure that uses can trust the people or organizations (in this case Cartesi nodes) that are managing their email server. In early 2023, [Bard claimed](https://africa.businessinsider.com/news/googles-new-bard-chatbot-told-an-ai-expert-it-was-trained-using-gmail-data-the/fjm56cn) that Google used user's Gmail data for its training model. Google came out to deny this. However, there have a lot of incidences (like the 2016 Cambridge Analytica scandal) that have made the public lose trust in these centralized entities.
+
+YourMailer puts users in control of their how & where their information is stored. On top of that, users will be able to choose whether their data is stored using decentralized storage or somewhere like Google Drive. 
+
 
 ## Installation
 
