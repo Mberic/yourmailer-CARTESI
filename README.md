@@ -1,6 +1,6 @@
 
 This project was part of the [Cartesi Online Hackathon 2023](https://taikai.network/cartesi/hackathons/cartesi-hackathon)
-=
+
 ## About
 
 In early 2023, Bard (Google’s A.I chatbot) made claims that Google used Gmail data to train its A.I model. Part of this data included users’ personal emails and conversations. 
