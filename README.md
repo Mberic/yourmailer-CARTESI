@@ -1,6 +1,6 @@
-=============================================================
+
 This project was part of the [Cartesi Online Hackathon 2023](https://taikai.network/cartesi/hackathons/cartesi-hackathon)
-=============================================================
+=
 ## About
 
 In early 2023, Bard (Google’s A.I chatbot) made claims that Google used Gmail data to train its A.I model. Part of this data included users’ personal emails and conversations. 
@@ -20,7 +20,7 @@ For the purpose of the PoC, only Objective (1) is achieved here.
 
 ## How the Email Service Works
 
-![Architrecture]()
+![YourMailer Architecture](https://github.com/Mberic/yourmailer-CARTESI/assets/51446308/9a88b4d6-38eb-402b-b213-ab3725089023)
 
 This is a description of the architecture. 
 
@@ -94,5 +94,6 @@ We will use the JAMES demo Docker image provided by Apache. You can follow the [
 
 This section highlights possible sources of errors that you need to pay attention to when setting up this email service on your local environment:
 
-Remember to include the domain name that your JAMES server is using to the /etc/hosts file.
-Since you are using a proxy, you’ll need to configure different ports on which your JAMES server accepts IMAP, SMTP and POP3 protocols. A key point in designing this application is that client should continue to use the standard ports that they are used to (i.e 25, 143, 110, 993…)
+1. Remember to include the domain name that your JAMES server is using to the /etc/hosts file.
+
+2. Since you are using a proxy, you’ll need to configure different ports on which your JAMES server accepts **IMAP, SMTP and POP3 protocols**. A key point in designing this application is that client should continue to use the standard ports that they are used to (i.e 25, 143, 110, 993…)
